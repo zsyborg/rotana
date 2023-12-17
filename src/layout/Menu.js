@@ -30,10 +30,10 @@ const DeskTopMenu = () => {
               </span>
             </a> */}
             <ul>
-              {/*<li>
+              <li>
                 <Link href="/">Home</Link>
               </li>
-               <li>
+              {/* <li>
                 <Link href="tour">Tours Packages</Link>
               </li>
               <li>
@@ -151,7 +151,7 @@ const MobileMenu = () => {
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
     <nav className="main-menu d-block d-xl-none">
-      <ul className="d-none">
+      <ul>
         <li className="menu-item has-children">
           <a href="#">
             Home

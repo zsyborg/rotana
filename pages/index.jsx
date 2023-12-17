@@ -1326,8 +1326,38 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
 
 
           {/* <video src="" controls="controls" autoplay="true" /> */}
-          <Player>
-            <source src="rotanatours.in/assets/images/testimonial/1.mp4" />
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/1.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/2.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/3.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/4.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/5.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/6.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/7.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/8.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/9.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/10.mp4" />
+          </Player>
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/11.mp4" />
           </Player>
 
 

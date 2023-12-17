@@ -1327,7 +1327,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
 
           {/* <video src="" controls="controls" autoplay="true" /> */}
           <Player>
-            <source src="https://nskandoi.com/videos/1.mp4" />
+            <source src="rotanatours.in/assets/images/testimonial/1.mp4" />
           </Player>
 
 

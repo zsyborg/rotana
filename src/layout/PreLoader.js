@@ -1,6 +1,6 @@
 const PreLoader = () => {
   return (
-    <div className="preloader d-none">
+    <div className="preloader">
       <div className="loader">
         <div className="pre-shadow" />
         <div className="pre-box" />

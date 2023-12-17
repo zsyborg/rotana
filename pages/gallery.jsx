@@ -1,5 +1,7 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
+import Slider from "react-slick";
+
 const Gallery = () => {
   return (
     <Layout>

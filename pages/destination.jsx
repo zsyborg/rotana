@@ -2,6 +2,8 @@ import GallerySection from "@/src/components/GallerySection";
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import Slider from "react-slick";
+
 const Destination = () => {
   return (
     <Layout extraClass={"pt-160"}>

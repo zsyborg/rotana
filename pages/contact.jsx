@@ -1,6 +1,8 @@
 import GallerySection from "@/src/components/GallerySection";
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
+import Slider from "react-slick";
+
 const Contact = () => {
   return (
     <Layout extraClass={"pt-160"}>

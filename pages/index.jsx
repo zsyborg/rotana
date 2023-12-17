@@ -1060,6 +1060,19 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
       </section>
       {/*====== End Features Section ======*/}
       {/*====== Start CTA Section ======*/}
+
+<section id="food">
+
+  <img src="assets/images/Deluxe Bronze_page-0001.jpg" />
+  <img src="assets/images/EXCLUSIVE SILVER_page-0001.jpg" />
+  <img src="assets/images/EXCOTIC GOLDEN_page-0001.jpg" />
+  <img src="assets/images/MARVELLOUS PLATINUM_page-0001.jpg" />
+
+</section>
+
+
+
+
       <section
         className="cta-bg overlay bg_cover pt-140 pb-150 d-none"
         style={{ backgroundImage: "url(assets/images/bg/cta-bg.jpg)" }}
@@ -1480,6 +1493,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
           {/*=== Footer Top ===*/}
           <div className="footer-top pt-40 wow fadeInUp">
             <div className="row">
+              <img src="assets/images/footer.jpg" />
               <div className="col-lg-3 col-sm-6">
                 {/*=== Single Info Item ===*/}
                 <div className="single-info-item mb-40">
@@ -1506,7 +1520,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
                   </div> */}
                 </div>
               </div>
-              <div className="col-lg-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6" id="contact">
                 {/*=== Single Info Item ===*/}
                 <div className="single-info-item mb-40">
                   <div className="icon">

@@ -459,9 +459,9 @@
             }
         }
         & .navbar-toggler{
-            border-color: rgba(255, 255, 255, .8);
+            border-color: rgba(0, 144, 0, 1);
             & span {
-                @extend %white-bg;
+                @extend %green-bg;
             }
         }
     }

@@ -28,8 +28,8 @@ const Header1 = () => {
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
                     <img
-                      src="assets/images/logo/RotanaLogoWhite.png"
-                      alt="Site Logo"
+                      src="assets/images/logo/logo.png"
+                      alt="Rotana Logo"
                     />
                   </a>
                 </Link>
@@ -65,7 +65,7 @@ const Header1 = () => {
             </div>
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
-              <div className="menu-button d-xl-block d-none">
+              <div className="menu-button d-xl-block">
                 <Link legacyBehavior href="https://wa.link/hbb3se">
                   <a className="main-btn primary-btn">
                     Book Now

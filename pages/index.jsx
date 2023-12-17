@@ -62,7 +62,7 @@ const Index = () => {
                           data-animation="fadeInRight"
                           data-delay=".6s"
                         >
-                          <Link legacyBehavior href="/about">
+                          <Link legacyBehavior href="#umrah">
                             <a className="main-btn primary-btn">
                               Explore More
                               <i className="fas fa-paper-plane" />
@@ -103,7 +103,7 @@ const Index = () => {
                           data-animation="fadeInRight"
                           data-delay=".6s"
                         >
-                          <Link legacyBehavior href="/about">
+                          <Link legacyBehavior href="#umrah">
                             <a className="main-btn primary-btn">
                               Explore More
                               <i className="fas fa-paper-plane" />
@@ -945,7 +945,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
               {/*=== Section Title ===*/}
               <div className="section-title text-center mb-60 wow fadeInDown">
                 <span className="sub-title">Popular Packages</span>
-                <h2>Umrah Packages</h2>
+                <h2 id="umrah">Umrah Packages</h2>
                 <img src="assets/images/hotels/Rotana 2 page_page-0002.jpg" />
                 <img src="assets/images/hotels/Rotana 2 page_page-0001.jpg" />
               </div>
@@ -1167,7 +1167,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
               {/*=== Testimonial Slider ===*/}
               <Slider
                 {...testimonialSliderOne}
-                className="testimonial-slider-one pl-lg-55 mb-40 wow fadeInRight"
+                className="testimonial-slider-one pl-lg-55 mb-40 wow fadeInRight d-none"
               >
                 {/*=== Testimonial Item ===*/}
                 <div className="gw-testimonial-item">
@@ -1472,7 +1472,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
       </section>
       {/*====== End Blog Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
       <footer className="main-footer black-bg pt-230">
         <div className="container">
@@ -1487,22 +1487,22 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <p>55 Main Street, Australia</p>
+                    <p>Mumbai, India</p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-3 col-sm-6">
                 {/*=== Single Info Item ===*/}
                 <div className="single-info-item mb-40">
-                  <div className="icon">
+                  {/* <div className="icon">
                     <i className="far fa-envelope-open" />
-                  </div>
-                  <div className="info">
+                  </div> */}
+                  {/* <div className="info">
                     <span className="title">Email</span>
                     <p>
                       <a href="mailto:support@gmail.com">support@gmail.com</a>
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-3 col-sm-6">
@@ -1514,14 +1514,14 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
                   <div className="info">
                     <span className="title">Hotline</span>
                     <p>
-                      <a href="tel:+000(123)456898">+000 (123) 456 898</a>
+                      <a href="tel:+91 98201 94778">+91 98201 94778</a>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-3 col-sm-6">
                 {/*=== Social Box ===*/}
-                <div className="social-box mb-40 float-lg-end">
+                <div className="social-box mb-40 float-lg-end d-none">
                   <ul className="social-link">
                     <li>
                       <a href="#">
@@ -1551,19 +1551,22 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
           {/*=== Footer Widget ===*/}
           <div className="footer-widget-area pt-75 pb-30">
             <div className="row">
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-6 col-md-6">
                 {/*=== Footer Widget ===*/}
                 <div className="footer-widget about-company-widget mb-40 wow fadeInUp">
                   <h4 className="widget-title">About</h4>
                   <div className="footer-content">
                     <p>
-                      To take trivial example which us ever undertakes laborious
-                      physica exercise except obsome
+                    At ROTANA Tours & Travels, we pride ourselves in providing excellent service and focusing only on 
+one goal: your absolute comfort. We are recognized by the Government of India and the Government 
+of Saudi Arabia for our commitment of delivering an exceptional experience for pilgrims who perform 
+Hajj as well as Umrah with us
                     </p>
                     <a href="#" className="footer-logo">
                       <img
-                        src="assets/images/logo/logo-white.png"
-                        alt="Site Logo"
+                        src="assets/images/logo/RotanaLogoWhite.png"
+                        alt="Rotana Logo"
+                        width="400"
                       />
                     </a>
                   </div>
@@ -1571,7 +1574,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
               </div>
               <div className="col-lg-5 col-md-6">
                 {/*=== Footer Widget ===*/}
-                <div className="footer-widget service-nav-widget mb-40 pl-lg-70 wow fadeInDown">
+                <div className="footer-widget service-nav-widget mb-40 pl-lg-70 wow fadeInDown d-none">
                   <h4 className="widget-title">Services</h4>
                   <div className="footer-content">
                     <ul className="footer-widget-nav">
@@ -1608,7 +1611,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6 d-none">
                 {/*=== Footer Widget ===*/}
                 <div className="footer-widget footer-newsletter-widget mb-40 pl-lg-100 wow fadeInUp">
                   <h4 className="widget-title">Newsletter</h4>
@@ -1643,14 +1646,14 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
                 {/*=== Footer Text ===*/}
                 <div className="footer-text">
                   <p>
-                    Copy@ 2023 <span style={{ color: "#F7921E" }}>GoWilds</span>
+                    Copyright@ 2023 <span style={{ color: "#F7921E" }}>Rotana Tours & Travels</span>
                     , All Right Reserved
                   </p>
                 </div>
               </div>
               <div className="col-lg-6">
                 {/*=== Footer Nav ===*/}
-                <div className="footer-nav float-lg-end">
+                <div className="footer-nav float-lg-end d-none">
                   <ul>
                     <li>
                       <a href="#">Setting &amp; privacy</a>

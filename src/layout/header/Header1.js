@@ -3,20 +3,20 @@ import Menu from "../Menu";
 
 const Header1 = () => {
   return (
-    <header className="header-area header-one transparent-header">
+    <header className="header-area header-one bg-white">
       {/*====== Header Navigation ======*/}
       <div className="header-navigation navigation-white">
         <div className="nav-overlay" />
         <div className="container-fluid">
-          <div className="primary-menu">
+          <div className="primary-menu justify-content-center">
             {/*====== Site Branding ======*/}
             <div className="site-branding">
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
-                    src="assets/images/logo/RotanaLogoWhite.png"
+                    src="assets/images/logo/logo.png"
                     alt="Site Logo"
-                    width={222}
+                    width={700}
                   />
                 </a>
               </Link>

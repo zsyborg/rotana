@@ -1,0 +1,27 @@
+Makah Hotels list 
+Makkah Tower
+Swissôtel Al Maqam Makkah
+Azka Al Safah
+Al Massa Hotel
+{0 Metres}
+Mira Ajyat
+Mira Sood
+
+
+
+Madina Hotel List
+
+Anwar Al Madina MovenPick
+Safwat Al Madina
+Dar Al Taqwa
+Dallah Taibah
+Bir Al Eiman
+Lolout Madina
+
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="
+Need to add interior and exterior photo saliders in all Hotel">
+    Button name
+</button>
+
+also add google maps

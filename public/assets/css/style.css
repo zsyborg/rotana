@@ -5490,11 +5490,25 @@ ul.slick-dots li.slick-active button {
 
 
 .justify{
-  text-align: justify;
-  font-size: 20pt !important;
-  line-height: 40pt;
+  
+  font-size: 14pt;
+  line-height: 24pt;
   color:rgba(99, 171, 69, 0.65)
 }
+
+@media (min-width: 576px) { 
+    
+
+  .justify{
+      font-size: 18pt;
+      line-height: 20pt;
+  }
+
+
+
+}
+@media (min-width: 576px) { ... }
+
 
 
 .bg-islam{

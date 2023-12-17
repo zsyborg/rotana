@@ -675,6 +675,20 @@ button{
     background-color: wheat !important;
 }
 
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    
+
+    .justify{
+        font-size: 18pt;
+    }
+
+
+
+ }
+
+
 /*====================
     End COMMON css 
 ======================*/

@@ -50,12 +50,13 @@ const Index = () => {
                   <div className="col-xl-6">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Islam is Peace
-                      </h1>
+                      <h2 data-animation="fadeInDown" data-delay=".4s">
+                        Welcome to Rotana your official partner & guide to Umrah
+                      </h2>
+
                       <div className="text-button d-flex align-items-center">
                         <p data-animation="fadeInLeft" data-delay=".5s">
-                        “Do not lose hope, nor be sad.” Quran 3:139
+                        
                         </p>
                         <div
                           className="hero-button"

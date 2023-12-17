@@ -1,5 +1,8 @@
+import dynamic from "next/dynamic";
+import Link from "next/link";
+import { Nav, Tab } from "react-bootstrap";
+import Slider from "react-slick";
 import GallerySection from "@/src/components/GallerySection";
-import MadinaHotels from "@/src/components/MadinaHotels";
 import Layout from "@/src/layout/Layout";
 import {
   home1Slider,
@@ -7,10 +10,7 @@ import {
   sliderActive4Item,
   testimonialSliderOne,
 } from "@/src/sliderProps";
-import dynamic from "next/dynamic";
-import Link from "next/link";
-import { Nav, Tab } from "react-bootstrap";
-import Slider from "react-slick";
+import MadinaHotels from "@/src/components/MadinaHotels";
 import { Player } from 'video-react';
 // import "@slick-carousel/slick/slick.css"; 
 // import "@slick-carousel/slick/slick-theme.css";

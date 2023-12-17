@@ -1,6 +1,6 @@
-import Slider from "react-slick";
 import { sliderActive5Item } from "../sliderProps";
 import { Nav, Tab } from "react-bootstrap";
+import Slider from "react-slick";
 
 const MadinaHotels = () => {
     const settings = {

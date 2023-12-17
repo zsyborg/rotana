@@ -16,10 +16,10 @@ const DeskTopMenu = () => {
   const [searchModal, setSearchModal] = useState(false);
   return (
     <Fragment>
-      <SearchModal
+      {/* <SearchModal
         show={searchModal}
         handleClose={() => setSearchModal(false)}
-      />
+      /> */}
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">

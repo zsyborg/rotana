@@ -3,14 +3,14 @@ import Menu from "../Menu";
 
 const Header1 = () => {
   return (
-    <header className="header-area header-one bg-white">
+    <header className="header-area header-one bg1">
       {/*====== Header Navigation ======*/}
       <div className="header-navigation navigation-white">
         <div className="nav-overlay" />
         <div className="container-fluid">
           <div className="primary-menu justify-content-center">
             {/*====== Site Branding ======*/}
-            <div className="site-branding">
+            <div className="site-branding m-5">
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img

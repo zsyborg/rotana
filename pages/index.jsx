@@ -940,14 +940,14 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
 
       
       <section className="services-seciton pt-100">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
+        <div className="container-fluid">
+          <div className="row justify-content-center w-100">
+            <div className="col-xl-8 col-lg-10 justify-content-center">
               {/*=== Section Title ===*/}
-              <div className="section-title text-center mb-60 wow fadeInDown">
+              <div className="section-title text-center mb-60 wow fadeInDown justify-content-center">
                 <span className="sub-title">Popular Packages</span>
                 <h2 id="umrah">Umrah Packages</h2>
-                <img src="assets/images/hotels/Rotana 2 page_page-0002.jpg" />
+                <img src="assets/images/hotels/Rotana 2 page_page-0002.jpg" className="img=fluid" width="1900" />
                 <img src="assets/images/hotels/Rotana 2 page_page-0001.jpg" />
               </div>
             </div>
@@ -1061,12 +1061,23 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
       {/*====== End Features Section ======*/}
       {/*====== Start CTA Section ======*/}
 
-<section id="food">
+<section id="food" className="d-flex justify-content-center container-fluid m-0 p-0">
+ <div className="row">
+ <div className="col-12 justify-content-center m-0 p-0">
+                        
+  <img src="assets/images/Deluxe Bronze_page-0001.jpg" className="w-100"/>
 
-  <img src="assets/images/Deluxe Bronze_page-0001.jpg" />
-  <img src="assets/images/EXCLUSIVE SILVER_page-0001.jpg" />
-  <img src="assets/images/EXCOTIC GOLDEN_page-0001.jpg" />
-  <img src="assets/images/MARVELLOUS PLATINUM_page-0001.jpg" />
+  </div>
+ <div className="col-12 justify-content-center">
+  <img src="assets/images/EXCLUSIVE SILVER_page-0001.jpg" className="w-100"/>
+  </div>
+ <div className="col-12 justify-content-center">
+  <img src="assets/images/EXCOTIC GOLDEN_page-0001.jpg" className="w-100"/>
+  </div>
+ <div className="col-12 justify-content-center">
+  <img src="assets/images/MARVELLOUS PLATINUM_page-0001.jpg" className="w-100"/>
+ </div>
+ </div>
 
 </section>
 
@@ -1339,25 +1350,75 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
 
 
 
-          {/* <video src="" controls="controls" autoplay="true" /> */}
+
+<div class="container-fluid">
+  <div class="row">
+    
+    <div class="col-6 img-fluid">
           <Player className="p-0">
             <source src="https://rotanatours.in/assets/images/testimonial/1.mp4" />
           </Player>
-          <Player className="p-0">
+
+    </div>
+    <div class="col-6 img-fluid">
+          <Player classNa me="p-0">
             <source src="https://rotanatours.in/assets/images/testimonial/2.mp4" />
           </Player>
+    </div>
+    <div
+      class="col-6">
           <Player className="p-0">
             <source src="https://rotanatours.in/assets/images/testimonial/3.mp4" />
           </Player>
+    </div>
+    <div
+      class="col-6">
           <Player className="p-0">
             <source src="https://rotanatours.in/assets/images/testimonial/4.mp4" />
           </Player>
+    </div>
+    <div
+      class="col-6">
           <Player className="p-0">
             <source src="https://rotanatours.in/assets/images/testimonial/5.mp4" />
           </Player>
+    </div>
+    <div class="col-6 img-fluid">
           <Player className="p-0">
             <source src="https://rotanatours.in/assets/images/testimonial/6.mp4" />
           </Player>
+    </div>
+    <div class="col-6 img-fluid">
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/7.mp4" />
+          </Player>
+    </div>
+    <div class="col-6 img-fluid">
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/8.mp4" />
+          </Player>
+    </div>
+    <div class="col-6 img-fluid">
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/9.mp4" />
+          </Player>
+    </div>
+    <div class="col-6 img-fluid">
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/10.mp4" />
+          </Player>
+    </div>
+    <div class="col-6 img-fluid">
+          <Player className="p-0">
+            <source src="https://rotanatours.in/assets/images/testimonial/11.mp4" />
+          </Player>
+    </div>
+    
+  </div>
+</div>
+
+
+          {/* <video src="" controls="controls" autoplay="true" /> */}
           <Player className="p-0">
             <source src="https://rotanatours.in/assets/images/testimonial/7.mp4" />
           </Player>

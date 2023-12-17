@@ -20,7 +20,7 @@ const DeskTopMenu = () => {
         show={searchModal}
         handleClose={() => setSearchModal(false)}
       /> */}
-      <nav className="main-menu d-none d-xl-block">
+      <nav className="main-menu d-none d-xl-block bg1">
         <ul>
           <li className="menu-item has-children">
             {/* <a href="#">
@@ -29,11 +29,11 @@ const DeskTopMenu = () => {
                 <i className="far fa-angle-down" />
               </span>
             </a> */}
-            <ul>
+            <ul className="shdw">
               <li>
-                <Link href="/">Home</Link>
+                <Link className="text" href="/">Home</Link>
               </li>
-              {/* <li>
+              <li>
                 <Link href="tour">Tours Packages</Link>
               </li>
               <li>
@@ -41,7 +41,7 @@ const DeskTopMenu = () => {
               </li>
             <li>
                 <Link href="contact">Contact</Link>
-              </li> */}
+              </li>
             </ul>
             {/* <ul className="sub-menu">
               <li>

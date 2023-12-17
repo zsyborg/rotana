@@ -30,10 +30,10 @@ const DeskTopMenu = () => {
               </span>
             </a> */}
             <ul>
-              <li>
+              {/*<li>
                 <Link href="/">Home</Link>
               </li>
-              <li>
+               <li>
                 <Link href="tour">Tours Packages</Link>
               </li>
               <li>
@@ -41,7 +41,7 @@ const DeskTopMenu = () => {
               </li>
             <li>
                 <Link href="contact">Contact</Link>
-              </li>
+              </li> */}
             </ul>
             {/* <ul className="sub-menu">
               <li>

@@ -151,7 +151,7 @@ const MobileMenu = () => {
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
     <nav className="main-menu d-block d-xl-none">
-      <ul>
+      <ul className="d-none">
         <li className="menu-item has-children">
           <a href="#">
             Home

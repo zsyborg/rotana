@@ -35,7 +35,7 @@ const Header1 = () => {
                 </Link>
               </div>
               {/*=== Nav Search ===*/}
-              <div className="nav-search mb-30 d-block d-xl-none ">
+              <div className="nav-search mb-30 d-block d-xl-none d-none ">
                 <form>
                   <div className="form_group">
                     <input

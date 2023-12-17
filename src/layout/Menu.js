@@ -159,7 +159,7 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("home")}>
+          {/* <ul className="sub-menu" style={activeLi("home")}>
             <li>
               <Link href="/">Home 01</Link>
             </li>
@@ -172,9 +172,9 @@ const MobileMenu = () => {
             <li>
               <Link href="index-4">Home 04</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
-        <li className="menu-item has-children">
+        {/* <li className="menu-item has-children">
           <a href="#">
             Tours
             <span className="dd-trigger" onClick={() => activeMenuSet("Tours")}>
@@ -252,8 +252,8 @@ const MobileMenu = () => {
               <Link href="contact">Contact</Link>
             </li>
           </ul>
-        </li>
-        <li className="menu-item search-item">
+        </li> */}
+        {/* <li className="menu-item search-item">
           <div
             className="search-btn"
             data-bs-toggle="modal"
@@ -261,7 +261,7 @@ const MobileMenu = () => {
           >
             <i className="far fa-search" />
           </div>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

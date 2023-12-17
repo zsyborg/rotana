@@ -1488,12 +1488,12 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
       {/*====== Start Gallery Section ======*/}
       {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
-      <footer className="main-footer black-bg pt-230">
+      <footer className="main-footer black-bg pt-230" id="contact">
+        <img src="assets/images/footer.jpg" />
         <div className="container">
           {/*=== Footer Top ===*/}
           <div className="footer-top pt-40 wow fadeInUp">
             <div className="row">
-              <img src="assets/images/footer.jpg" />
               <div className="col-lg-3 col-sm-6">
                 {/*=== Single Info Item ===*/}
                 <div className="single-info-item mb-40">
@@ -1520,7 +1520,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
                   </div> */}
                 </div>
               </div>
-              <div className="col-lg-3 col-sm-6" id="contact">
+              <div className="col-lg-3 col-sm-6">
                 {/*=== Single Info Item ===*/}
                 <div className="single-info-item mb-40">
                   <div className="icon">

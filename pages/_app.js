@@ -25,8 +25,7 @@ export default function App({ Component, pageProps }) {
         {/*====== Title ======*/}
         <title>Rotana - Tours and Travels - Hajj & Umrah</title>
 
-        
-<!-- Google tag (gtag.js) -->
+ {/* Google tag (gtag.js)  */}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-J4RXJKLVN3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

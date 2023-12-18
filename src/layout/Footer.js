@@ -1,51 +1,13 @@
 const Footer = ({ bg, extraClass }) => {
   return (
-    <footer className="main-footer black-bg pt-230" id="contact">
-    <img src="assets/images/footer.jpg" />
+    <footer className="main-footer black-bg pt-10" id="contact">
+    {/* <img src="assets/images/footer.jpg" /> */}
     <div className="container">
       {/*=== Footer Top ===*/}
       <div className="footer-top pt-40 wow fadeInUp">
         <div className="row">
-          <div className="col-lg-3 col-sm-6">
-            {/*=== Single Info Item ===*/}
-            <div className="single-info-item mb-40">
-              <div className="icon">
-                <i className="far fa-map-marker-alt" />
-              </div>
-              <div className="info">
-                <span className="title">Location</span>
-                <p>Mumbai, India</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-sm-6">
-            {/*=== Single Info Item ===*/}
-            <div className="single-info-item mb-40">
-              {/* <div className="icon">
-                <i className="far fa-envelope-open" />
-              </div> */}
-              {/* <div className="info">
-                <span className="title">Email</span>
-                <p>
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
-                </p>
-              </div> */}
-            </div>
-          </div>
-          <div className="col-lg-3 col-sm-6">
-            {/*=== Single Info Item ===*/}
-            <div className="single-info-item mb-40">
-              <div className="icon">
-                <i className="far fa-map-marker-alt" />
-              </div>
-              <div className="info">
-                <span className="title">Hotline</span>
-                <p>
-                  <a href="tel:+91 98201 94778">+91 98201 94778</a>
-                </p>
-              </div>
-            </div>
-          </div>
+          
+         
           <div className="col-lg-3 col-sm-6">
             {/*=== Social Box ===*/}
             <div className="social-box mb-40 float-lg-end d-none">
@@ -76,7 +38,7 @@ const Footer = ({ bg, extraClass }) => {
         </div>
       </div>
       {/*=== Footer Widget ===*/}
-      <div className="footer-widget-area pt-75 pb-30">
+      <div className="footer-widget-area pt-25 pb-30">
         <div className="row">
           <div className="col-lg-6 col-md-6">
             {/*=== Footer Widget ===*/}

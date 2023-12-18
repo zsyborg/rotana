@@ -17,13 +17,11 @@ const About = () => {
               <div className="features-content-box pr-lg-70 mb-50 wow fadeInLeft">
                 {/*=== Section Title ===*/}
                 <div className="section-title mb-30">
-                  <span className="sub-title">Availability</span>
-                  <h2>Explore GoWilds Real Adventure &amp; Travels</h2>
+                  <span className="sub-title">Rotal Tours &amp; <Travels></Travels></span>
+                  <h2>Rotana Tours: Your Trusted Partner for Sacred Journeys</h2>
                 </div>
                 <p className="mb-30">
-                  Sit amet consectetur integer tincidunt sceleries noda lesry
-                  volutpat neque fermentum malesuada scelequecy leocras odio
-                  blandit rhoncus eues feugiat
+                Welcome to Rotana, your gateway to spiritual enlightenment and seamless travel experiences for Hajj and Umrah. At Rotana Tours, we specialize in crafting unforgettable journeys tailored to meet the spiritual needs of every pilgrim while ensuring affordability without compromising service or quality.
                 </p>
                 <a href="#" className="main-btn filled-btn">
                   Learn More

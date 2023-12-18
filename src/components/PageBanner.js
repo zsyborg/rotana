@@ -4,7 +4,7 @@ const PageBanner = ({ pageTitle }) => {
   return (
     <section
       className="page-banner overlay pt-170 pb-220 bg_cover"
-      style={{ backgroundImage: "url(assets/images/bg/page-bg.jpg)" }}
+      style={{ backgroundImage: "url(assets/images/hero/Madina-the-Prophets-Masjid.webp)" }}
     >
       <div className="container">
         <div className="row justify-content-center">

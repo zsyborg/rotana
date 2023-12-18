@@ -15,6 +15,7 @@ import { Player } from 'video-react';
 // import "@slick-carousel/slick/slick.css"; 
 // import "@slick-carousel/slick/slick-theme.css";
 import React, { Component } from "react";
+import Footer from "@/src/layout/Footer";
 
 
 
@@ -1481,7 +1482,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
       {/*====== Start Gallery Section ======*/}
       {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
-     
+     <Footer/>
     </Layout>
   );
 };

@@ -37,7 +37,7 @@ const settings = {
 
 const Index = () => {
   return (
-    <Layout header={1} noFooter>
+    <Layout header={1}>
       {/*====== Start Hero Section ======*/}
       <section className="hero-section">
         {/*=== Hero Wrapper ===*/}

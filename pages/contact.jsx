@@ -5,7 +5,9 @@ import Slider from "react-slick";
 
 const Contact = () => {
   return (
-    <Layout extraClass={"pt-160"}>
+    // <Layout header={1} noFooter>
+
+    <Layout header={1} extraClass={"pt-160"}>
       <PageBanner pageTitle={"Contact Us"} />
       {/*====== Start Info Section ======*/}
       <section className="contact-info-section pt-100 pb-60">

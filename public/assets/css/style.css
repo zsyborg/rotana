@@ -5722,6 +5722,25 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
 .fa-arrow-right{
   color: wheat !important;
 }
+/* #=========================================# */
+/* #=========================================# */
 
-/* #=========================================# */
-/* #=========================================# */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  
+  .gridcontact{
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+  
+  .gridcontact{
+    display: none;
+  }
+} 

@@ -85,7 +85,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Bhusawal</h4>
-                          <p class="card-text"> <a href="tel:+919561501515">+91 9561501515 / 7620953312 (Qari Zaheeruddin)</a> <br/><br/></p>
+                          <p class="card-text"> <a href="tel:+919561501515">+91 9561501515 / +91 7620953312 (Qari Zaheeruddin)</a> <br/><br/></p>
                         </div>
                       </div>
 

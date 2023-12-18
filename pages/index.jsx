@@ -174,24 +174,36 @@ const Index = () => {
               <div className="about-content-box text-center mb-55 wow fadeInDown">
                 <div className="section-title mb-30">
                   <span className="sub-title">About Rotana</span>
-                  <h2>Rotana is one of the leading Travel &amp; Tours Agency</h2>
+                  <h2>Rotana Tours: Your Trusted Partner for Sacred Journeys</h2>
                 </div>
-                <p className="justify h2"> 
-                Welcome to Rotana, Your Trusted Partner for Sacred Journeys
-
-              Embark on a transformative pilgrimage with Rotana, your gateway to spiritual enlightenment and seamless travel experiences for Hajj and Umrah. We specialize in crafting unforgettable journeys that cater to the spiritual needs and preferences of our Muslim brothers and sisters.<br/>
+                <p className=""> 
+                Welcome to Rotana, your gateway to spiritual enlightenment and seamless travel experiences for Hajj and Umrah. At Rotana Tours, we specialize in crafting unforgettable journeys tailored to meet the spiritual needs of every pilgrim while ensuring affordability without compromising service or quality.<br/>
             </p>
-              <p>
-                &nbsp;
-              </p>
-            <p className="justify h2">
-            Your journey of self-purification begins here. Our legacy of helping Muslims in performing their
-            obligatory religious duty Hajj, and non-obligatory religious duty Umrah, goes back to over two decades,
-            Since our inception, every year we have enabled thousands of pilgrims to successfully fulfill their
-            promise to Allah. Our expert team of experienced professionals in India and Saudi Arabia are
-            committed towards ensuring that every aspect of this holy pilgrimage is executed flawlessly, and the
-            pilgrim is in a relaxed state of mind during the sacred journey
-                            </p>
+
+
+
+            <h3>A Legacy of Spiritual Commitment:</h3>
+            <p className=""> 
+For over two decades, Rotana has been a guiding light, assisting Muslims in fulfilling their religious obligations of Hajj and Umrah. We have enabled countless pilgrims to embark on their sacred journey, upholding their promise to Allah with excellence in service and unwavering dedication.</p>
+
+            <h3>Guiding Your Spiritual Odyssey:</h3>
+            <p>Begin your path toward self-purification with us. Our experienced team across India and Saudi Arabia meticulously oversees every aspect of your pilgrimage. From comprehensive planning to on-ground support, our mission is to ensure your journey is spiritually enriching while remaining affordable and accessible.</p> 
+
+            <h3>Affordable Packages, Uncompromised Quality:</h3>
+            <p>Rotana Tours takes pride in offering affordable packages designed to fit all budgets without compromising service or quality. Our hotel accommodations are conveniently located within accessible distance from both the Harams in Makkah and Madinah, ensuring convenience and comfort throughout your sacred journey.</p>
+            
+            <h3>Exclusive Office Locations:</h3>
+            <p>With exclusive office locations in Bhusawal and Mumbai, our presence ensures personalized attention and dedicated assistance for pilgrims across India. Our teams are ready to serve you with expertise and care, ensuring your pilgrimage experience is seamless and fulfilling.</p>
+
+            <h3>Your Trusted Companion:</h3>
+            <p>Rotana Tours stands as your trusted companion on this transformative pilgrimage, providing guidance and support while maintaining a commitment to affordability, accessibility, and uncompromised quality.</p>
+
+            <h3>Tailored Services for Spiritual Fulfilment:</h3>
+            <p>We recognize that each pilgrim's spiritual needs are unique. That's why our services are meticulously tailored to cater to your preferences. Whether it's arranging accommodations in close proximity to sacred sites, organizing Ziyarat tours, or ensuring dietary requirements are met with culturally appropriate meals, our focus remains steadfast on your spiritual fulfilment.</p>
+
+            <h3>Join Us on Your Spiritual Enlightenment:</h3>
+            <p>Begin your journey towards self-purification with Rotana Tours, where affordability meets exceptional service, and your sacred pilgrimage becomes our shared commitment.</p>
+              
                           </div>
                         </div>
                       </div>

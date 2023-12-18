@@ -5744,3 +5744,9 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
     display: none;
   }
 } 
+
+
+.newmenu >ul > li{
+  padding-right: 26px;
+  font-size: 16pt;
+}

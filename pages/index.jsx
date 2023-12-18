@@ -38,6 +38,38 @@ const settings = {
 const Index = () => {
   return (
     <Layout header={1} noFooter>
+
+
+{/* Start New Menu */}
+<nav className="main-menu d-block newmenu text-center">
+      <ul className="d-inline-flex">
+        <li className="menu-item">
+          <a href="/">
+            Home
+            {/* <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
+              <i className="far fa-angle-down" />
+            </span> */}
+          </a>
+        </li>
+        {/* <li>
+          <Link href="/">Home</Link>
+        </li> */}
+        <li>
+          <Link href="/packages">Packages</Link>
+        </li>
+        <li>
+          <Link href="/food">Food</Link>
+        </li>
+        <li>
+          <Link href="/ziyarah">Ziyarah</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
+        
+      </ul>
+    </nav>
+
       {/*====== Start Hero Section ======*/}
       <section className="hero-section">
         {/*=== Hero Wrapper ===*/}

@@ -29,7 +29,7 @@ const DeskTopMenu = () => {
                 <i className="far fa-angle-down" />
               </span>
             </a> */}
-            <ul className="shdw">
+            {/* <ul className="shdw">
               <li>
                 <Link className="text" href="/">Home</Link>
               </li>
@@ -42,7 +42,7 @@ const DeskTopMenu = () => {
             <li>
                 <Link href="contact">Contact</Link>
               </li>
-            </ul>
+            </ul> */}
             {/* <ul className="sub-menu">
               <li>
                 <Link href="index-2">Home 02</Link>

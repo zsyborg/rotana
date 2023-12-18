@@ -169,16 +169,16 @@ const MobileMenu = () => {
           <Link href="/">Home</Link>
         </li> */}
         <li>
-          <Link href="#umrah">Packages</Link>
+          <Link href="/packages">Packages</Link>
         </li>
         <li>
-          <Link href="#food">Food</Link>
+          <Link href="/food">Food</Link>
         </li>
         <li>
-          <Link href="#">Ziyarah</Link>
+          <Link href="/ziyarah">Ziyarah</Link>
         </li>
         <li>
-          <Link href="#contact">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </li>
         {/* <li className="menu-item has-children">
           <a href="#">

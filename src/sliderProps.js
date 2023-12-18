@@ -7,7 +7,7 @@ function Arrow({ className, extraClass, onClick, icon }) {
 }
 
 export const home1Slider = {
-  dots: false,
+  dots: true,
   arrows: true,
   infinite: true,
   speed: 800,
@@ -15,7 +15,7 @@ export const home1Slider = {
   autoplay: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: <Arrow extraClass={"prev"} icon={"fal fa-arrow-left"} />,
+  prevArrow: <Arrow extraClass={"prev"} icon={"fal hero-image"} />,
   nextArrow: <Arrow extraClass={"next"} icon={"fal fa-arrow-right"} />,
   responsive: [
     {

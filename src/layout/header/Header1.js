@@ -3,7 +3,7 @@ import Menu from "../Menu";
 
 const Header1 = () => {
   return (
-    <header className="header-area header-one bg-white">
+    <header className="header-area header-one bg-white m-3 p-3 NF-ISLAM1">
       {/*====== Header Navigation ======*/}
       <div className="header-navigation navigation-white">
         <div className="nav-overlay" />

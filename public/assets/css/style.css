@@ -5732,7 +5732,7 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
   
   
   .gridcontact{
-    display: none;
+    display: -moz-inline-grid;
   }
 }
 

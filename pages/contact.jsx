@@ -61,9 +61,9 @@ const Contact = () => {
                 <div className="icon">
                   <img src="assets/images/icon/icon-3.png" alt="icon" />
                 </div>
-                <div className="info d-lg-none d-md-grid d-sm-grid d-xl-none">
-                    <h2><a href="tel:+919820194778">Nadeem Shaikh (CEO) - +91 98201 94778</a><br/><br/></h2>
                   <span className="title">Hotline</span>
+                    <h3><a href="tel:+919820194778">Nadeem Shaikh (CEO)<br/> +91 98201 94778</a><br/><br/></h3>
+                <div className="info d-lg-none d-md-grid d-sm-grid d-xl-none">
                   <p>
                     <a href="tel:+919561501515">Bhusawal - +91 9561501515 / 7620953312 (Qari Zaheeruddin)</a> <br/><br/>
                     <a href="tel:+919820194778">Jalgaon - +91 6446877313 (Maulana Umar)</a> <br/><br/>
@@ -84,8 +84,8 @@ const Contact = () => {
                     <div class="card-columns text-center d-flex align-content-center bg-success text-uppercase d-sm-inline-grid  d-lg-inline-flex d-md-none d-sm-none">
                       <div class="card text-white bg-success">
                         <div class="card-body">
-                          <h4 class="card-title">Jalgaon</h4>
-                          <p class="card-text"> <a href="tel:+919561501515">Bhusawal - +91 9561501515 / 7620953312 (Qari Zaheeruddin)</a> <br/><br/></p>
+                          <h4 class="card-title">Bhusawal</h4>
+                          <p class="card-text"> <a href="tel:+919561501515">+91 9561501515 / 7620953312 (Qari Zaheeruddin)</a> <br/><br/></p>
                         </div>
                       </div>
 

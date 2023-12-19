@@ -1,4 +1,7 @@
 import { InstagramEmbed, EmbedToggler } from 'react-social-media-embed';
+import Menu from './Menu';
+import FooterMenu from './FooterMenu';
+
 
 const Footer = ({ bg, extraClass }) => {
   return (
@@ -42,7 +45,7 @@ const Footer = ({ bg, extraClass }) => {
       {/*=== Footer Widget ===*/}
       <div className="footer-widget-area pt-25 pb-30">
         <div className="row">
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-4 col-md-4">
             {/*=== Footer Widget ===*/}
             <div className="footer-widget about-company-widget mb-40 wow fadeInUp">
               {/* <h4 className="widget-title">About</h4> */}
@@ -63,7 +66,7 @@ Hajj as well as Umrah with us
               </div>
             </div>
           </div>
-          <div className="col-lg-5 col-md-6">
+          <div className="col-lg-4 col-md-4">
             {/*=== Footer Widget ===*/}
             {/* <EmbedToggler defaultToggledOn>
               <div
@@ -77,40 +80,23 @@ Hajj as well as Umrah with us
             <InstagramEmbed
               height={{}}
               url="https://www.instagram.com/rotana.tours/"
-              width={555}
-              width="100%"
+              width={444}
             />
           </div>
-          <div className="col-lg-4 col-md-6 d-none">
+          <div className="col-lg-4 col-md-4">
             {/*=== Footer Widget ===*/}
             <div className="footer-widget footer-newsletter-widget mb-40 pl-lg-100 wow fadeInUp">
-              <h4 className="widget-title">Newsletter</h4>
+              
               <div className="footer-content">
-                <p>
-                  Which of us ever undertake laborious physical exercise
-                  except obtain
-                </p>
-                <form>
-                  <div className="form_group">
-                    <label>
-                      <i className="far fa-paper-plane" />
-                    </label>
-                    <input
-                      type="email"
-                      className="form_control"
-                      placeholder="Email Address"
-                      name="email"
-                      required
-                    />
-                  </div>
-                </form>
+                <FooterMenu/>
+               
               </div>
             </div>
           </div>
         </div>
       </div>
       {/*=== Footer Copyright ===*/}
-      <div className="footer-copyright">
+      <div className="footer-copyright text-white">
         <div className="row">
           <div className="col-lg-6">
             {/*=== Footer Text ===*/}

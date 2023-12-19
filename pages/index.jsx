@@ -1469,7 +1469,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
 
     </div>
 
-    <div class="col-12">
+    <div class="col-3">
           <Player
           playsInline
           fluid={true}

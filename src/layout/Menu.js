@@ -33,15 +33,19 @@ const DeskTopMenu = () => {
               <li>
                 <Link className="text" href="/">Home</Link>
               </li>
+             
               <li>
-                <Link href="tour">Tours Packages</Link>
-              </li>
-              <li>
-                <Link href="#about">About Us</Link>
-              </li>
-            <li>
-                <Link href="contact">Contact</Link>
-              </li>
+          <Link href="/packages">Packages</Link>
+        </li>
+        <li>
+          <Link href="/food">Food</Link>
+        </li>
+        <li>
+          <Link href="/ziyarah">Ziyarah</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
             </ul>
             {/* <ul className="sub-menu">
               <li>

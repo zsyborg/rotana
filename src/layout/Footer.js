@@ -2,7 +2,7 @@ import { InstagramEmbed, EmbedToggler } from 'react-social-media-embed';
 
 const Footer = ({ bg, extraClass }) => {
   return (
-    <footer className="main-footer black-bg pt-10" id="contact">
+    <footer className="main-footer bg-islam pt-10" id="contact">
     {/* <img src="assets/images/footer.jpg" /> */}
     <div className="container">
       {/*=== Footer Top ===*/}
@@ -45,9 +45,9 @@ const Footer = ({ bg, extraClass }) => {
           <div className="col-lg-6 col-md-6">
             {/*=== Footer Widget ===*/}
             <div className="footer-widget about-company-widget mb-40 wow fadeInUp">
-              <h4 className="widget-title">About</h4>
+              {/* <h4 className="widget-title">About</h4> */}
               <div className="footer-content">
-                <p>
+                <p className='mobcontacts text-white'>
                 At ROTANA Tours & Travels, we pride ourselves in providing excellent service and focusing only on 
 one goal: your absolute comfort. We are recognized by the Government of India and the Government 
 of Saudi Arabia for our commitment of delivering an exceptional experience for pilgrims who perform 

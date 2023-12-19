@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               {/*=== Contact Info Item ===*/}
               <div className="contact-info-item text-center mb-40 wow fadeInUp">
                 <div className="icon">
@@ -36,46 +36,30 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+           
+            <div className="col-lg-6 col-md-6 col-sm-12">
               {/*=== Contact Info Item ===*/}
-              {/* <div className="contact-info-item text-center mb-40 wow fadeInDown">
-                <div className="icon">
-                  <img src="assets/images/icon/icon-2.png" alt="icon" />
-                </div>
-                <div className="info">
-                  <span className="title">Email Address</span>
-                  <p>
-                    <a href="mailto:supportinfo@gmail.com">
-                      supportinfo@gmail.com
-                    </a>
-                  </p>
-                  <p>
-                    <a href="mailto:traveladventure.net">traveladventure.net</a>
-                  </p>
-                </div>
-              </div> */}
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*=== Contact Info Item ===*/}
-              <div className="contact-info-item text-center mb-40 wow fadeInUp">
+              <div className="contact-info-item text-center m-0 p-0 wow fadeInUp">
                 <div className="icon">
                   <img src="assets/images/icon/icon-3.png" alt="icon" />
                 </div>
                   <span className="title">Hotline</span>
                     <h3><a href="tel:+919820194778">Nadeem Shaikh (CEO)<br/> +91 98201 94778</a><br/><br/></h3>
                 <div className="info d-lg-none d-md-grid d-sm-grid d-xl-none">
-                  <p>
-                    <a href="tel:+919561501515">Bhusawal - +91 9561501515 / 7620953312 (Qari Zaheeruddin)</a> <br/><br/>
-                    <a href="tel:+919820194778">Jalgaon - +91 6446877313 (Maulana Umar)</a> <br/><br/>
-                    <a href="tel:+919028126314">Amalner +91 9028126314 (Maulana Azhar)</a><br/><br/>
-                    <a href="tel:+917843076638">Paldi +91 7843076638</a>(Maulana Asfaq)<br/><br/>
+                  <p className="mobcontacts p-2">
+                    <strong>
+                    <a className="qari islamiccolor" href="tel:+919561501515">Bhusawal <br/> +91 9561501515 <br/> 7620953312 (Qari Zaheeruddin)</a> <br/><br/>
+                    <a href="tel:+919820194778">Jalgaon - Maulana Umar <br/> +91 6446877313 </a> <br/><br/>
+                    <a href="tel:+919028126314">Amalner - Maulana Azhar <br/> +91 9028126314 </a><br/><br/>
+                    <a href="tel:+917843076638">Paldi - Maulana Asfaq <br/> +91 7843076638</a><br/><br/>
                     <a href="tel:+919975461699">Varangaon +91 9975461699</a><br/><br/>
-                    <a href="tel:+917058202266">Erandol +91 7058202266 (Hafiz Irfan )</a><br/><br/>
-                    <a href="tel:+99595777775">Yawal +91 9595777775 (Haji Nadeem) </a><br/><br/>
-                    <a href="tel:+919623542660">Malkapur +91 9623542660 (Mufti Shahbuddin)</a><br/><br/>
-                    <a href="tel:+91797249161">Pachora +91 797249161 (Mufti Asrar) </a><br/><br/>
-                    <a href="tel:+919891432102">Raver +91 9891432102 (Rizwan Shaikh</a><br/><br/>
-                    <a href="tel:+919860604641">Sillod +91 9975461699</a><br/><br/>
+                    <a href="tel:+917058202266">Erandol - Hafiz Irfan <br/> +91 7058202266 </a><br/><br/>
+                    <a href="tel:+99595777775">Yawal - Haji Nadeem <br/> +91 9595777775  </a><br/><br/>
+                    <a href="tel:+919623542660">Malkapur - Mufti Shahbuddin <br/> +91 9623542660 </a><br/><br/>
+                    <a href="tel:+91797249161">Pachora - Mufti Asrar <br/> +91 797249161  </a><br/><br/>
+                    <a href="tel:+919891432102">Raver - Rizwan Shaikh <br/> +91 9891432102 </a><br/><br/>
+                    <a href="tel:+919860604641">Sillod - Mufti Azhar Iqbal Rahmani <br/> +91 9975461699</a><br/><br/>
+                    </strong>
                   </p>
                 </div>
               </div>

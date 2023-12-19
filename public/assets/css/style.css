@@ -5743,6 +5743,14 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
   .gridcontact{
     display: none !important;
   }
+  
+.qari{
+  font-size: 24pt;
+  font-weight: bold;
+  line-height: 26pt;
+  text-shadow: none !important;
+  /* text-shadow: 2px 2px 4px black; */
+}
 } 
 
 
@@ -5776,4 +5784,42 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
 
 .card-text span{
   color: #e0ff08;
+}
+
+.mobcontacts{
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+
+
+/* Mapbox GL */
+.marker {
+  width:0;
+  height:0;
+}
+
+.marker  span {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-sizing:border-box;
+  width: 30px;
+  height: 30px;
+  color:#fff;
+  background: #4D2D73;
+  border:solid 2px;
+  border-radius: 0 70% 70%;
+  box-shadow:0 0 2px #000;
+  cursor: pointer;
+  transform-origin:0 0;
+  transform: rotateZ(-135deg);
+}
+
+.marker b {
+  transform: rotateZ(135deg)
+}
+
+.temporary-marker span {
+  background: #D3D3D3;
 }

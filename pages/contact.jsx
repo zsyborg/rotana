@@ -82,12 +82,12 @@ const Contact = () => {
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12 d-lg-grid d-xl-grid d-xxl-grid d-sm-none d-xs-none gridcontact">
                     <div class="card-columns row gx-2 gy-2 text-center d-flex justify-content-center text-uppercase d-sm-inline-grid d-lg-inline-flex d-md-none d-sm-none">
-                      <div class="col-2">
+                      <div class="col-2 col-sm-4">
                         
                       <div class="card text-white bg-success">
                         <div class="card-body">
-                          <h4 class="card-title">Bhusawal</h4>
-                          <p class="card-text"> <a href="tel:+919561501515">+91 9561501515 / +91 7620953312<br/> (Qari Zaheeruddin)</a> <br/><br/></p>
+                          <h4 class="card-title crdtit">Bhusawal</h4>
+                          <p class="card-text qari"> <a href="tel:+919561501515"> <span> Qari Zaheeruddin</span> <br/> +91 9561501515 <br/> +91 7620953312 </a> <br/></p>
                         </div>
                       </div>
                       </div>
@@ -96,7 +96,8 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Jalgaon</h4>
-                          <p class="card-text">+91 6446877313 (Maulana Umar)</p>
+                          <p class="card-text"> <span>Maulana Umar</span> <br/>+91 6446877313 </p>
+                          <br/>
                         </div>
                       </div>
                       </div>
@@ -105,8 +106,9 @@ const Contact = () => {
 
                       <div class="card text-white bg-success">
                         <div class="card-body">
-                          <h4 class="card-title">Amalner`</h4>
-                          <p class="card-text">+91 9028126314 (Maulana Azhar)</p>
+                          <h4 class="card-title">Amalner</h4>
+                          <p class="card-text"><span>Maulana Azhar</span> <br/>+91 9028126314 </p>
+                          <br/>
                         </div>
                       </div>
                       </div>
@@ -115,7 +117,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Paldi</h4>
-                          <p class="card-text"> <a href="tel:+917843076638">+91 7843076638</a> (Maulana Asfaq)<br/><br/>
+                          <p class="card-text"> <a href="tel:+917843076638"> <span>Maulana Asfaq </span> <br/>+91 7843076638</a> <br/><br/>
 </p>
                         </div>
                       </div>
@@ -126,7 +128,7 @@ const Contact = () => {
                         <div class="card-body">
                           <h4 class="card-title">Varangaon</h4>
                           <p class="card-text">
-                    <a href="tel:+919975461699"> +91 9975461699 (Maulana Salman)</a><br/><br/>
+                    <a href="tel:+919975461699"><span>Maulana Salman</span> <br/> +91 9975461699 </a><br/><br/>
                             
                           </p>
                         </div>
@@ -138,7 +140,7 @@ const Contact = () => {
                         <div class="card-body">
                           <h4 class="card-title">Erandol </h4>
                           <p class="card-text">                    
-                            <a href="tel:+917058202266">+91 7058202266 (Hafiz Irfan )</a><br/><br/>
+                            <a href="tel:+917058202266">Hafiz Irfan <br/><span>+91 7058202266 </span> </a><br/><br/>
                           </p>
                         </div>
                       </div>
@@ -150,7 +152,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Yawal</h4>
-                          <p class="card-text"><a href="tel:+99595777775">+91 9595777775 (Haji Nadeem) </a><br/><br/>
+                          <p class="card-text"><a href="tel:+99595777775"><span>Haji Nadeem</span> <br/>+91 9595777775  </a><br/><br/>
                           </p>
                         </div>
                       </div>
@@ -161,7 +163,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Malkapur</h4>
-                          <p class="card-text"><a href="tel:+919623542660"> +91 9623542660 (Mufti Shahbuddin)</a><br/><br/>
+                          <p class="card-text"><a href="tel:+919623542660"> <span>Mufti Shahbuddin</span> <br/> +91 9623542660 </a><br/>
                           </p>
                         </div>
                       </div>
@@ -173,7 +175,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Pachora</h4>
-                          <p class="card-text"><a href="tel:+91797249161"> +91 797249161 (Mufti Asrar) </a><br/><br/>
+                          <p class="card-text"><a href="tel:+91797249161"> <span>Mufti Asrar</span> <br/> +91 797249161  </a><br/><br/>
                           </p>
                         </div>
                       </div>
@@ -184,7 +186,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Raver</h4>
-                          <p class="card-text"> <a href="tel:+919891432102"> +91 9891432102 (Rizwan Shaikh)</a>
+                          <p class="card-text"> <a href="tel:+919891432102"> <span>Rizwan Shaikh</span> <br/> +91 9891432102 </a>
                             <br/><br/>
                           </p>
                         </div>
@@ -197,7 +199,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Sillod</h4>
-                          <p class="card-text"> <a href="tel:+919860604641">+91 9975461699</a><br/><br/>
+                          <p class="card-text"> <a href="tel:+919860604641"><span> Mufti Azhar Iqbal Rahmani</span> <br/> +91 9975461699 </a><br/>
                           </p>
                         </div>
                       </div>                

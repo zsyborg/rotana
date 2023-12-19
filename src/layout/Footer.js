@@ -144,3 +144,4 @@ Hajj as well as Umrah with us
   );
 };
 export default Footer;
+

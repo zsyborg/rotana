@@ -5738,11 +5738,10 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  
+@media only screen and (max-width: 500px) {
   
   .gridcontact{
-    display: none;
+    display: none !important;
   }
 } 
 
@@ -5754,4 +5753,27 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
 
 .islamiccolor{
   color: rgb(17, 111, 17);
+}
+
+
+
+.crdtit{
+  font-size: 24pt;
+}
+
+.card-text{
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+
+.qari{
+  font-size: 24pt;
+  font-weight: bold;
+  line-height: 26pt;
+  text-shadow: 2px 2px 4px black;
+}
+
+.card-text span{
+  color: #e0ff08;
 }

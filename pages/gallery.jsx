@@ -1,8 +1,8 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Slider from "react-slick";
-import 'lightbox.js-react/dist/index.css'
-import {SlideshowLightbox} from 'lightbox.js-react'
+// import 'lightbox.js-react/dist/index.css'
+// import {SlideshowLightbox} from 'lightbox.js-react'
 
 
 const RotanaGallery = () => {

@@ -11,12 +11,12 @@ import {
   testimonialSliderOne,
 } from "@/src/sliderProps";
 import MadinaHotels from "@/src/components/MadinaHotels";
+import "../node_modules/video-react/dist/video-react.css";
 import { Player } from 'video-react';
 // import "@slick-carousel/slick/slick.css"; 
 // import "@slick-carousel/slick/slick-theme.css";
 import React, { Component } from "react";
 import Footer from "@/src/layout/Footer";
-
 
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
@@ -41,7 +41,7 @@ const Index = () => {
 
 
 {/* Start New Menu */}
-<nav className="main-menu d-block newmenu text-center">
+<nav className="main-menu d-block newmenu text-center d-none">
       <ul className="d-inline-flex">
         <li className="menu-item">
           <a href="/">
@@ -73,7 +73,7 @@ const Index = () => {
       {/*====== Start Hero Section ======*/}
       <section className="hero-section">
         {/*=== Hero Wrapper ===*/}
-        <div className="hero-wrapper black-bg">
+        <div className="hero-wrapper bg-dark-subtle">
           {/*=== Hero Slider ===*/}
           <Slider {...home1Slider} className="hero-slider-one">
             {/*=== Single Slider ===*/}
@@ -82,19 +82,19 @@ const Index = () => {
                 <div className="row align-items-center">
                   <div className="col-xl-6">
                     {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white">
-                      <h2 data-animation="fadeInDown" data-delay=".4s">
+                    <div className="hero-content">
+                    {/* data-delay=".4s" */}
+                      <h2 data-animation="fadeInDown"  className="islamiccolor">
                         Welcome to Rotana your official partner & guide to Umrah
                       </h2>
 
                       <div className="text-button d-flex align-items-center">
-                        <p data-animation="fadeInLeft" data-delay=".5s">
+                        <p data-animation="fadeInLeft">
                         
                         </p>
                         <div
                           className="hero-button"
                           data-animation="fadeInRight"
-                          data-delay=".6s"
                         >
                         </div>
                       </div>
@@ -111,8 +111,8 @@ const Index = () => {
                     {/*=== Hero Image ===*/}
                     <div className="hero-image" data-animation="fadeInRight">
                       <img
-                        src="assets/images/hero/desktop-wallpaper-madina-sharif-madina-shareef.jpg"
-                        alt="Rotana Image"
+                        src="assets/images/logo/logo.png"
+                        alt="Rotana Logo"
                       />
                     </div>
                   </div>
@@ -125,18 +125,17 @@ const Index = () => {
                 <div className="row align-items-center">
                   <div className="col-xl-6">
                     {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white">
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
+                    <div className="hero-content islamiccolor">
+                      <h1 data-animation="fadeInDown" className="islamiccolor">
                         Umrah Packages
                       </h1>
-                      <div className="text-button d-flex align-items-center">
-                        <p data-animation="fadeInLeft" data-delay=".5s">
+                      <div className="text-button d-flex align-items-center ">
+                        <p data-animation="fadeInLeft" className="islamiccolor">
                         We offer affordable packages for Umrah pilgrims with outstanding customer service & price.
                         </p>
                         <div
                           className="hero-button"
                           data-animation="fadeInRight"
-                          data-delay=".6s"
                         >
                         </div>
                       </div>
@@ -1377,40 +1376,112 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
 
 
 
-          {/* <video src="" controls="controls" autoplay="true" /> */}
-          <Player className="p-0">
+<div class="container-fluid">
+  <div class="row gx-5 justify-content-center gy-5">
+    <div class="col-3">
+          <Player
+          playsInline
+          fluid={true}
+            >
             <source src="https://rotanatours.in/assets/images/testimonial/1.mp4" />
           </Player>
-          <Player className="p-0">
-            <source src="https://rotanatours.in/assets/images/testimonial/2.mp4" />
-          </Player>
-          <Player className="p-0">
-            <source src="https://rotanatours.in/assets/images/testimonial/3.mp4" />
-          </Player>
-          <Player className="p-0">
-            <source src="https://rotanatours.in/assets/images/testimonial/4.mp4" />
-          </Player>
-          <Player className="p-0">
-            <source src="https://rotanatours.in/assets/images/testimonial/5.mp4" />
-          </Player>
-          <Player className="p-0">
-            <source src="https://rotanatours.in/assets/images/testimonial/6.mp4" />
-          </Player>
-          <Player className="p-0">
-            <source src="https://rotanatours.in/assets/images/testimonial/7.mp4" />
-          </Player>
-          <Player className="p-0">
+      
+    </div>
+    <div class="col-3">
+
+          <Player 
+          playsInline
+          fluid={true}
+          >
             <source src="https://rotanatours.in/assets/images/testimonial/8.mp4" />
           </Player>
-          <Player className="p-0">
+    </div>
+    <div class="col-3">
+
+          <Player 
+          playsInline
+          fluid={true}
+          >
+            <source src="https://rotanatours.in/assets/images/testimonial/2.mp4" />
+          </Player>
+    </div>
+    <div class="col-3">
+          <Player 
+          playsInline
+          fluid={true}
+          >
+            <source src="https://rotanatours.in/assets/images/testimonial/3.mp4" />
+          </Player>
+
+    </div>
+    <div class="col-3">
+          <Player 
+          playsInline
+          fluid={true}
+          >
+            <source src="https://rotanatours.in/assets/images/testimonial/4.mp4" />
+          </Player>
+
+    </div>
+    <div class="col-3">
+          <Player 
+          playsInline
+          fluid={true}
+          >
+            <source src="https://rotanatours.in/assets/images/testimonial/5.mp4" />
+          </Player>
+
+    </div>
+    <div class="col-3">
+          <Player 
+          playsInline
+          fluid={true}
+          >
+            <source src="https://rotanatours.in/assets/images/testimonial/6.mp4" />
+          </Player>
+
+    </div>
+    <div class="col-3">
+          <Player 
+          playsInline
+          fluid={true}
+          >
+            <source src="https://rotanatours.in/assets/images/testimonial/7.mp4" />
+          </Player>
+      
+    </div>
+    <div class="col-3">
+
+          <Player 
+          playsInline
+          fluid={true}
+          >
             <source src="https://rotanatours.in/assets/images/testimonial/9.mp4" />
           </Player>
-          <Player className="p-0">
+    </div>
+    <div class="col-3">
+          <Player 
+          playsInline
+          fluid={true}
+          >
             <source src="https://rotanatours.in/assets/images/testimonial/10.mp4" />
           </Player>
-          <Player className="p-0">
+
+    </div>
+    <div class="col-3">
+          <Player 
+          playsInline
+          fluid={true}
+          >
             <source src="https://rotanatours.in/assets/images/testimonial/11.mp4" />
           </Player>
+
+    </div>
+
+  </div>
+</div>
+
+          {/* <video src="" controls="controls" autoplay="true" /> */}
 
 
         </div>

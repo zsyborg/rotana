@@ -15,8 +15,8 @@ export const home1Slider = {
   autoplay: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: <Arrow extraClass={"prev"} icon={"fal hero-image"} />,
-  nextArrow: <Arrow extraClass={"next"} icon={"fal fa-arrow-right"} />,
+  prevArrow: <Arrow extraClass={"prev"} icon={"fal hero-image islamiccolor"} />,
+  nextArrow: <Arrow extraClass={"next"} icon={"fal fa-arrow-right islamiccolor"} />,
   responsive: [
     {
       breakpoint: 1200,

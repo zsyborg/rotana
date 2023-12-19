@@ -75,9 +75,10 @@ return (
                     </div>
 
                   </div>
-                  <div className="text-center mt-20"><a id="umrahguide"
+                  <img className="img-fluid" src="assets/images/umrahguide.jpg"/>
+                  {/* <div className="text-center mt-20"><a id="umrahguide"
                       href="assets/images/umrahguide.jpg"
-                      className="bg-success p-3 text-white">Umrah Guide</a></div>
+                      className="bg-success p-3 text-white">Umrah Guide</a></div> */}
                 </div>
               </div>
             </div>

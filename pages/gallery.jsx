@@ -4,7 +4,7 @@ import Slider from "react-slick";
 
 const Gallery = () => {
   return (
-    <Layout>
+    <Layout header={1}>
       <PageBanner pageTitle={"Gallery"} />
       {/*====== Start Gallery Section ======*/}
       <section className="gallery-area pt-100 pb-70">

@@ -266,7 +266,7 @@ return (
 
           <div className="row gy-5">
 
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title">Jabal al-Nour</h3>
@@ -280,7 +280,7 @@ return (
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title">Jabal Al Thawr</h3>
@@ -294,7 +294,7 @@ return (
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title">The Clock Towers</h3>
@@ -307,7 +307,7 @@ return (
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title">Zamzam Well</h3>
@@ -319,7 +319,7 @@ return (
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title">The Kiswa Factory</h3>
@@ -334,7 +334,7 @@ return (
             </div>
 
 
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title">Taif</h3>
@@ -348,7 +348,7 @@ return (
               </div>
             </div>
 
-            <div className="col-6">
+            <div className="col-lg-6 col-sm-12">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title">Badr, Saudi Arabia</h3>

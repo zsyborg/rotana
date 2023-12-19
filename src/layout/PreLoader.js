@@ -10,7 +10,7 @@ const PreLoader = () => {
 
 
     
-<div class="preloader">
+<div class="preloader bg-islam">
   <div class="preloader__ring">
     <div class="preloader__sector">R</div>
     <div class="preloader__sector">o</div>

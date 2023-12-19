@@ -1379,15 +1379,6 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
 <div class="container-fluid">
   <div class="row gx-5 justify-content-center gy-5">
     <div class="col-3">
-          <Player
-          playsInline
-          fluid={true}
-            >
-            <source src="https://rotanatours.in/assets/images/testimonial/1.mp4" />
-          </Player>
-      
-    </div>
-    <div class="col-3">
 
           <Player 
           playsInline
@@ -1473,9 +1464,19 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
           playsInline
           fluid={true}
           >
-            <source src="https://rotanatours.in/assets/images/testimonial/11.mp4" />
+            <source src="https://rotanatours.in/assets/images/testimonial/1.mp4" />
           </Player>
 
+    </div>
+    
+    <div class="col-12">
+          <Player
+          playsInline
+          fluid={true}
+            >
+            <source src="https://rotanatours.in/assets/images/testimonial/11.mp4" />
+          </Player>
+      
     </div>
 
   </div>

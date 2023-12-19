@@ -39,7 +39,7 @@ const Index = () => {
   return (
     <Layout header={1} noFooter>
 
-<SimpleDialog/>
+{/* <SimpleDialog/> */}
 {/* Start New Menu */}
 <nav className="main-menu d-block newmenu text-center d-none">
       <ul className="d-inline-flex">

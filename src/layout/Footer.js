@@ -1,3 +1,5 @@
+import { InstagramEmbed, EmbedToggler } from 'react-social-media-embed';
+
 const Footer = ({ bg, extraClass }) => {
   return (
     <footer className="main-footer black-bg pt-10" id="contact">
@@ -63,42 +65,21 @@ Hajj as well as Umrah with us
           </div>
           <div className="col-lg-5 col-md-6">
             {/*=== Footer Widget ===*/}
-            <div className="footer-widget service-nav-widget mb-40 pl-lg-70 wow fadeInDown d-none">
-              <h4 className="widget-title">Services</h4>
-              <div className="footer-content">
-                <ul className="footer-widget-nav">
-                  <li>
-                    <a href="#">Caravan Soler Tent</a>
-                  </li>
-                  <li>
-                    <a href="#">Family Tent Camping</a>
-                  </li>
-                  <li>
-                    <a href="#">Classic Tent Camping</a>
-                  </li>
-                  <li>
-                    <a href="#">Wild Tent Camping</a>
-                  </li>
-                  <li>
-                    <a href="#">Small Cabin Wood</a>
-                  </li>
-                </ul>
-                <ul className="footer-widget-nav">
-                  <li>
-                    <a href="#">Need a Career ?</a>
-                  </li>
-                  <li>
-                    <a href="#">Latest News &amp; Blog</a>
-                  </li>
-                  <li>
-                    <a href="#">Core Features</a>
-                  </li>
-                  <li>
-                    <a href="#">Meet Our teams</a>
-                  </li>
-                </ul>
+            {/* <EmbedToggler defaultToggledOn>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center'
+                }}
+              >
               </div>
-            </div>
+            </EmbedToggler> */}
+            <InstagramEmbed
+              height={{}}
+              url="https://www.instagram.com/rotana.tours/"
+              width={555}
+              width="100%"
+            />
           </div>
           <div className="col-lg-4 col-md-6 d-none">
             {/*=== Footer Widget ===*/}

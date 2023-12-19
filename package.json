@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-nice-select": "^1.0.4",
     "react-slick": "^0.29.0",
+    "react-social-media-embed": "^2.4.1",
     "react-visibility-sensor": "^5.1.1",
     "redux": "^5.0.0",
     "slick-carousel": "^1.8.1",

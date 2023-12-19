@@ -76,7 +76,7 @@ return (
 
                   </div>
                   <div className="text-center mt-20"><a id="umrahguide"
-                      href="assets/umrahguide.jpg"
+                      href="assets/images/umrahguide.jpg"
                       className="bg-success p-3 text-white">Umrah Guide</a></div>
                 </div>
               </div>

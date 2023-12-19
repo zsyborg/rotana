@@ -17,7 +17,7 @@ import { Player } from 'video-react';
 // import "@slick-carousel/slick/slick-theme.css";
 import React, { Component } from "react";
 import Footer from "@/src/layout/Footer";
-
+import SimpleDialog from '../src/components/PopUp';
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -39,7 +39,7 @@ const Index = () => {
   return (
     <Layout header={1} noFooter>
 
-
+<SimpleDialog/>
 {/* Start New Menu */}
 <nav className="main-menu d-block newmenu text-center d-none">
       <ul className="d-inline-flex">

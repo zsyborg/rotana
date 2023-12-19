@@ -1,8 +1,11 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Slider from "react-slick";
+import 'lightbox.js-react/dist/index.css'
+import {SlideshowLightbox} from 'lightbox.js-react'
 
-const Gallery = () => {
+
+const RotanaGallery = () => {
   return (
     <Layout header={1}>
       <PageBanner pageTitle={"Gallery"} />
@@ -1239,4 +1242,4 @@ const Gallery = () => {
     </Layout>
   );
 };
-export default Gallery;
+export default RotanaGallery;

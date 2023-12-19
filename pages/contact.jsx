@@ -81,21 +81,27 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12 d-lg-grid d-xl-grid d-xxl-grid d-sm-none d-xs-none gridcontact">
-                    <div class="card-columns text-center d-flex align-content-center bg-success text-uppercase d-sm-inline-grid  d-lg-inline-flex d-md-none d-sm-none">
+                    <div class="card-columns row gx-2 gy-2 text-center d-flex justify-content-center text-uppercase d-sm-inline-grid d-lg-inline-flex d-md-none d-sm-none">
+                      <div class="col-2">
+                        
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Bhusawal</h4>
-                          <p class="card-text"> <a href="tel:+919561501515">+91 9561501515 / +91 7620953312 (Qari Zaheeruddin)</a> <br/><br/></p>
+                          <p class="card-text"> <a href="tel:+919561501515">+91 9561501515 / +91 7620953312<br/> (Qari Zaheeruddin)</a> <br/><br/></p>
                         </div>
                       </div>
+                      </div>
 
+                      <div class="col-2">
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Jalgaon</h4>
                           <p class="card-text">+91 6446877313 (Maulana Umar)</p>
                         </div>
                       </div>
+                      </div>
 
+                      <div class="col-2">
 
                       <div class="card text-white bg-success">
                         <div class="card-body">
@@ -103,6 +109,8 @@ const Contact = () => {
                           <p class="card-text">+91 9028126314 (Maulana Azhar)</p>
                         </div>
                       </div>
+                      </div>
+                      <div class="col-2">
                 
                       <div class="card text-white bg-success">
                         <div class="card-body">
@@ -111,6 +119,8 @@ const Contact = () => {
 </p>
                         </div>
                       </div>
+                      </div>
+                      <div class="col-2">
                 
                       <div class="card text-white bg-success">
                         <div class="card-body">
@@ -121,6 +131,8 @@ const Contact = () => {
                           </p>
                         </div>
                       </div>
+                      </div>
+                      <div class="col-2">
                 
                       <div class="card text-white bg-success">
                         <div class="card-body">
@@ -130,7 +142,11 @@ const Contact = () => {
                           </p>
                         </div>
                       </div>
+                      </div>
                 
+
+                      <div class="col-2">
+
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Yawal</h4>
@@ -138,7 +154,10 @@ const Contact = () => {
                           </p>
                         </div>
                       </div>
-                
+                      </div>
+
+                      <div class="col-2">
+
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Malkapur</h4>
@@ -146,7 +165,11 @@ const Contact = () => {
                           </p>
                         </div>
                       </div>
-                
+                      </div>
+
+
+                      <div class="col-2">
+
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Pachora</h4>
@@ -154,6 +177,10 @@ const Contact = () => {
                           </p>
                         </div>
                       </div>
+                      </div>
+
+                      <div class="col-2">
+
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Raver</h4>
@@ -162,12 +189,18 @@ const Contact = () => {
                           </p>
                         </div>
                       </div>
+                      </div>
+
+
+                      <div class="col-2">
+
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Sillod</h4>
                           <p class="card-text"> <a href="tel:+919860604641">+91 9975461699</a><br/><br/>
                           </p>
                         </div>
+                      </div>                
                       </div>                
                 
                 </div>

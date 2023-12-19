@@ -165,7 +165,7 @@ const Index = () => {
       </section>
       {/*====== End Hero Section ======*/}
       {/*====== Start About Section ======*/}
-      <section className="about-section pt-100">
+      <section className="about-section pt-100" id="about">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-10 col-lg-8">
@@ -1468,7 +1468,7 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
           </Player>
 
     </div>
-    
+
     <div class="col-12">
           <Player
           playsInline

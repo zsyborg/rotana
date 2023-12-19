@@ -37,7 +37,7 @@ const DeskTopMenu = () => {
                 <Link href="tour">Tours Packages</Link>
               </li>
               <li>
-                <Link href="about">About Us</Link>
+                <Link href="#about">About Us</Link>
               </li>
             <li>
                 <Link href="contact">Contact</Link>

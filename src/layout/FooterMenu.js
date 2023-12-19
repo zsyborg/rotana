@@ -41,7 +41,7 @@ const DeskTopMenu = () => {
           <Link href="/food">Food</Link>
         </li>
         <li>
-          <Link href="/ziyarah">Ziyarah</Link>
+          <Link href="/ziyarah">Umrah & Ziyarah</Link>
         </li>
         <li>
           <Link href="/contact">Contact</Link>

@@ -75,7 +75,10 @@ return (
                     </div>
 
                   </div>
+                  <div class="container-fluid">
                   <img className="img-fluid" src="assets/images/umrahguide.jpg"/>
+                    
+                  </div>
                   {/* <div className="text-center mt-20"><a id="umrahguide"
                       href="assets/images/umrahguide.jpg"
                       className="bg-success p-3 text-white">Umrah Guide</a></div> */}

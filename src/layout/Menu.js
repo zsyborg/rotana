@@ -43,9 +43,9 @@ const DeskTopMenu = () => {
         <li>
           <Link href="/ziyarah">Umrah & Ziyarah</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/gallery">Gallery</Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/contact">Contact</Link>
         </li>
@@ -184,9 +184,9 @@ const MobileMenu = () => {
         <li>
           <Link href="/ziyarah">Umrah & Ziyarah</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/gallery">Gallery</Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/contact">Contact</Link>
         </li>

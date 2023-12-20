@@ -1,22 +1,11 @@
 import Link from "next/link";
 import Menu from "../Menu";
-import Script from 'next/script'
 
 
 const Header1 = () => {
   return (
     <header className="header-area header-one bg-white m-3 p-3 NF-ISLAM1">
       
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-TD8DDBPZSS"></Script>
-      <Script>
-      {`
-      window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-TD8DDBPZSS');
-        `}
-      </Script>
 
       {/*====== Header Navigation ======*/}
       <div className="header-navigation navigation-white">

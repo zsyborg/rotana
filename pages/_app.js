@@ -2,6 +2,7 @@ import PreLoader from "@/src/layout/PreLoader";
 import "@/styles/globals.css";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
+import ReactGA from 'react-ga';
 
 export default function App({ Component, pageProps }) {
   const [loader, setLoader] = useState(true);
@@ -10,6 +11,9 @@ export default function App({ Component, pageProps }) {
       setLoader(false);
     }, 1500);
   }, []);
+
+    const TRACKING_ID = "G-TD8DDBPZSS";
+    ReactGA.initialize(TRACKING_ID);
 
   return (
     <Fragment>
@@ -25,15 +29,6 @@ export default function App({ Component, pageProps }) {
         {/*====== Title ======*/}
         <title>Rotana - Tours and Travels - Hajj & Umrah</title>
 
- {/* Google tag (gtag.js)  */}
-{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-J4RXJKLVN3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-J4RXJKLVN3');
-</script> */}
 
 
 
@@ -86,6 +81,10 @@ export default function App({ Component, pageProps }) {
         <link rel="stylesheet" href="assets/css/default.css" />
         {/*====== Style css ======*/}
         <link rel="stylesheet" href="assets/css/style.css" />
+
+        
+
+
       </Head>
       {loader && <PreLoader />}
       {!loader && <Component {...pageProps} />}

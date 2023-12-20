@@ -12,7 +12,7 @@ const SimpleDialog = (props) => {
         <h2>Starting from Rs. 1,50,000/- </h2>
         <h4>Call For More Details </h4>
       </DialogContent> */}
-      <img src="assets/images/exit.png" width={50} className="exit" style={{ position: "absolute", top: "-24px", right: "-24px" }}
+      <img src="assets/images/exit.png" width={40} className="exit" style={{ position: "absolute", top: "-24px", right: "-24px" }}
           onClick={() => setOpen(false)}  />
       <img src="assets/images/RamadanKareem.jpg" />
     </Dialog>

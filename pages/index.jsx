@@ -39,7 +39,7 @@ const Index = () => {
   return (
     <Layout header={1} noFooter>
 
-{/* <SimpleDialog/> */}
+<SimpleDialog/>
 {/* Start New Menu */}
 <nav className="main-menu d-block newmenu text-center d-none">
       <ul className="d-inline-flex">
@@ -1077,9 +1077,9 @@ All 70 rooms are allergy-free and equipped with high-speed internet and a flat-s
                   <i className="flaticon-fishing" />
                 </div>
                 <div className="text">
-                  <h4 className="title">Get In Touch With Our Ofce Near You </h4>
+                  <h4 className="title">Get In Touch With Our Office Near You </h4>
                   <p>
-                  We Have Various Ofces Located Across India Where You Can Get In Touch To Inquire About
+                  We Have Various Office Located Across India Where You Can Get In Touch To Inquire About
                   Any Of Our Services. Find One That's Near You.
                   </p>
                 </div>

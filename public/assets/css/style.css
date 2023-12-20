@@ -5894,3 +5894,16 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
 .no-padding {
   padding: 0;
 }
+
+
+.exit{
+  position: absolute;
+  right: -24px;
+  top: -24px;
+}
+
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  overflow-y: visible !important;
+  overflow: visible !important;
+}

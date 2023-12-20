@@ -18,7 +18,7 @@
     "fslightbox-react": "^1.7.6",
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.3",
-    "next": "13.3.2",
+    "next": "13.5.1",
     "react": "^18.2.0",
     "react-animated-cursor": "^2.11.2",
     "react-bootstrap": "^1.6.1",

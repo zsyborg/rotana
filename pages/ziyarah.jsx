@@ -230,41 +230,40 @@ return (
                  
             <AccordionDetails>
           <Typography>
-              
-                      <article className="sc-53f348b9-5 bCwIwB dynamic-elearning-content--description">
-                        <div className="sc-213d61b3-0 kexixH">
-                       
-                            <p className="sc-2cb50690-7 isiQyk">Umrah is a set of rituals of worshipping Allah by entering
-                              into the state of Ihram, performing circumambulation of the Kaaba, performing Sa’i between
-                              Safa and Marwa, and having one's hair shaven or trimmed.</p>
-                            <p className="sc-2cb50690-7 isiQyk"><strong>It has great stature and virtues, including</strong>
-                            </p>
-                            <ul>
-                              <li><strong>Allah mentioned it along with Hajj</strong> and commanded that it be completed
-                                and performed in the most perfect manner, for the sake of Allah’s pleasure. The Almighty
-                                said: and perform properly the Hajj and Umrah for Allah.</li>
-                              <li><strong>It wipes out sins and reduces poverty and need</strong>: the Prophet
-                                (blessings and peace be upon him) said: "Perform Hajj and Umrah consecutively; for they
-                                remove poverty and sin as the bellows remove impurity from iron".</li>
-                              <li><strong>Umrah expiates sins</strong>: the Prophet (blessings and peace be upon him)
-                                said: "From one Umrah to the next is an expiation for the sins committed between them".
-                              </li>
-                              <li><strong>Every step in circumambulation is an increase in good deeds and forgiveness of
-                                  sins</strong>: the Prophet (blessings and peace be upon him) said about the virtues of
-                                circumambulating the honored House: "Whoever circumambulates the House does not raise a
-                                foot or put down the other, except that Allah will write down for him a good deed, erase
-                                for him a sin and raise his rank".</li>
-                              <li><strong>Sa’i between Safa and Marwa is a reason why Allah will be thankful and
-                                  rewarding to His servant</strong>: after mentioning Sa’i between Safa and Marwa, Allah
-                                informed us that He fully knows His servant’s work and that He will reward the servant
-                                for the deed and good work. He said: "And who volunteers good, Allah is All-grateful,
-                                All-knowing".</li>
-                            </ul>
-                          
-                        </div>
-                      </article>
-          </Typography>
-    </AccordionDetails>
+                    <article className="sc-53f348b9-5 bCwIwB dynamic-elearning-content--description">
+                      <div className="sc-213d61b3-0 kexixH">
+                      
+                          <p className="sc-2cb50690-7 isiQyk">Umrah is a set of rituals of worshipping Allah by entering
+                            into the state of Ihram, performing circumambulation of the Kaaba, performing Sa’i between
+                            Safa and Marwa, and having one's hair shaven or trimmed.</p>
+                          <p className="sc-2cb50690-7 isiQyk"><strong>It has great stature and virtues, including</strong>
+                          </p>
+                          <ul>
+                            <li><strong>Allah mentioned it along with Hajj</strong> and commanded that it be completed
+                              and performed in the most perfect manner, for the sake of Allah’s pleasure. The Almighty
+                              said: and perform properly the Hajj and Umrah for Allah.</li>
+                            <li><strong>It wipes out sins and reduces poverty and need</strong>: the Prophet
+                              (blessings and peace be upon him) said: "Perform Hajj and Umrah consecutively; for they
+                              remove poverty and sin as the bellows remove impurity from iron".</li>
+                            <li><strong>Umrah expiates sins</strong>: the Prophet (blessings and peace be upon him)
+                              said: "From one Umrah to the next is an expiation for the sins committed between them".
+                            </li>
+                            <li><strong>Every step in circumambulation is an increase in good deeds and forgiveness of
+                                sins</strong>: the Prophet (blessings and peace be upon him) said about the virtues of
+                              circumambulating the honored House: "Whoever circumambulates the House does not raise a
+                              foot or put down the other, except that Allah will write down for him a good deed, erase
+                              for him a sin and raise his rank".</li>
+                            <li><strong>Sa’i between Safa and Marwa is a reason why Allah will be thankful and
+                                rewarding to His servant</strong>: after mentioning Sa’i between Safa and Marwa, Allah
+                              informed us that He fully knows His servant’s work and that He will reward the servant
+                              for the deed and good work. He said: "And who volunteers good, Allah is All-grateful,
+                              All-knowing".</li>
+                          </ul>
+                        
+                      </div>
+                    </article>
+            </Typography>
+      </AccordionDetails>
 
         </Accordion>
 

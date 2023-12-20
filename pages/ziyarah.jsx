@@ -5,7 +5,11 @@ import Link from "next/link";
 import Slider from "react-slick";
 
 import Footer from "@/src/layout/Footer";
-
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Food = () => {
 return (
@@ -18,9 +22,19 @@ return (
         <div className="container">
           <div className="sc-c5479164-1 sc-c5479164-2 kiVLXj">
             <div>
-              <div className="sc-c5479164-3 daUcod">
+            <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+          className="bg-success text-white"
+        >
+          
                 <h2 className="islamiccolor mt-20 mb-20">Umrah in a Nutshell</h2>
-              </div>
+            
+              </AccordionSummary>
+              <AccordionDetails>
+          <Typography>
               <div className="sc-c5479164-4 kfGxuZ">
                 <div className="sc-53f348b9-0 kOQtyv">
                   <div className="sc-53f348b9-1 fgPYfX">
@@ -84,16 +98,30 @@ return (
                       className="bg-success p-3 text-white">Umrah Guide</a></div> */}
                 </div>
               </div>
+
+              </Typography>
+              </AccordionDetails>
+              </Accordion>
             </div>
           </div>
         </div>
 
-
+<Accordion>
         <div className="container-fluid sc-c5479164-1 sc-c5479164-2 kiVLXj">
           <div className="row">
             <div className="sc-c5479164-3 daUcod mt-40">
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+          className="bg-success text-white"
+        >
               <h3 className="islamiccolor">Umrah in Ramadan</h3>
+            </AccordionSummary>
+
             </div>
+            <AccordionDetails>
+          <Typography>
             <div className="sc-c5479164-4 kfGxuZ">
               <div className="sc-53f348b9-0 kOQtyv">
                 <div className="sc-53f348b9-1 fgPYfX">
@@ -126,10 +154,12 @@ return (
                 </div>
 
               </div>
+              </Typography>
+              <AccordionDetails>
             </div>
           </div>
         </div>
-
+  </Accordion>
 
 
 

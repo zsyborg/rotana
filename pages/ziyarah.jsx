@@ -107,9 +107,7 @@ return (
         </div>
 
 <Accordion>
-        <div className="container-fluid sc-c5479164-1 sc-c5479164-2 kiVLXj">
-          <div className="row">
-            <div className="sc-c5479164-3 daUcod mt-40">
+       
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -119,7 +117,7 @@ return (
               <h3 className="islamiccolor">Umrah in Ramadan</h3>
             </AccordionSummary>
 
-            </div>
+            
             <AccordionDetails>
           <Typography>
             <div className="sc-c5479164-4 kfGxuZ">
@@ -154,11 +152,10 @@ return (
                 </div>
 
               </div>
+              </div>
               </Typography>
-              <AccordionDetails>
-            </div>
-          </div>
-        </div>
+              </AccordionDetails>
+           
   </Accordion>
 
 

@@ -5898,8 +5898,8 @@ New Awesome Preloader - https://codepen.io/jkantner/pen/qBdBJxY
 
 .exit{
   position: absolute;
-  right: -24px;
-  top: -24px;
+  right: 0x;
+  top: 0x;
 }
 
 

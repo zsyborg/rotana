@@ -19,7 +19,7 @@ return (
     <div className="row">
       <div className="col-12">
 
-        <div className="container">
+        <div className="container-fluid">
           <div className="sc-c5479164-1 sc-c5479164-2 kiVLXj">
             <div>
             <Accordion>
@@ -35,10 +35,7 @@ return (
               </AccordionSummary>
               <AccordionDetails>
           <Typography>
-              <div className="sc-c5479164-4 kfGxuZ">
-                <div className="sc-53f348b9-0 kOQtyv">
-                  <div className="sc-53f348b9-1 fgPYfX">
-                    <div className="sc-53f348b9-2 jJuIle">
+             
                       <article className="sc-53f348b9-5 bCwIwB dynamic-elearning-content--description">
                         <div className="sc-213d61b3-0 kexixH">
                           <div>
@@ -86,18 +83,12 @@ return (
                           </div>
                         </div>
                       </article>
-                    </div>
-
-                  </div>
+                   
                   <div class="container-fluid">
                   <img className="img-fluid" src="assets/images/umrahguide.jpg"/>
                     
                   </div>
-                  {/* <div className="text-center mt-20"><a id="umrahguide"
-                      href="assets/images/umrahguide.jpg"
-                      className="bg-success p-3 text-white">Umrah Guide</a></div> */}
-                </div>
-              </div>
+              
 
               </Typography>
               </AccordionDetails>
@@ -114,7 +105,7 @@ return (
           id="panel1a-header"
           className="bg-success text-white"
         >
-              <h3 className="islamiccolor">Umrah in Ramadan</h3>
+              <h3 className="islamiccolor mt-20 mb-20">Umrah in Ramadan</h3>
             </AccordionSummary>
 
             
@@ -168,16 +159,22 @@ return (
 
 
 
-        <div className="container-fluid mt-30 mb">
-          <div className="sc-c5479164-1 sc-c5479164-2 kiVLXj">
-            <div>
-              <div className="sc-c5479164-3 daUcod">
-                <h3 className="islamiccolor">Umrah Repetition</h3>
-              </div>
-              <div className="sc-c5479164-4 kfGxuZ">
-                <div className="sc-53f348b9-0 kOQtyv">
-                  <div className="sc-53f348b9-1 fgPYfX">
-                    <div className="sc-53f348b9-2 jJuIle">
+  <Accordion>
+       
+       <AccordionSummary
+         expandIcon={<ExpandMoreIcon />}
+         aria-controls="panel1a-content"
+         id="panel1a-header"
+         className="bg-success text-white"
+       >
+                <h3 className="islamiccolor mt-20 mb-20">Umrah Repetition</h3>
+                </AccordionSummary>
+
+            
+            <AccordionDetails>
+          <Typography>
+              
+              
                       <article className="sc-53f348b9-5 bCwIwB dynamic-elearning-content--description">
                         <div className="sc-213d61b3-0 kexixH">
                           <div>
@@ -204,15 +201,11 @@ return (
                           </div>
                         </div>
                       </article>
-                    </div>
+                   
+            </Typography>
+            </AccordionDetails>
 
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </Accordion>
 
 
 
@@ -224,21 +217,23 @@ return (
 
 
 
-
-
-        <div className="container-fluid">
-          <div className="sc-c5479164-1 sc-c5479164-2 kiVLXj">
-            <div>
-              <div className="sc-c5479164-3 daUcod">
-                <h3 className="sc-2cb50690-6 gqhIqu mt-55 mb-10 islamiccolor">Virtue of Umrah</h3>
-              </div>
-              <div className="sc-c5479164-4 kfGxuZ">
-                <div className="sc-53f348b9-0 kOQtyv">
-                  <div className="sc-53f348b9-1 fgPYfX">
-                    <div className="sc-53f348b9-2 jJuIle">
+        <Accordion>
+       
+       <AccordionSummary
+         expandIcon={<ExpandMoreIcon />}
+         aria-controls="panel1a-content"
+         id="panel1a-header"
+         className="bg-success text-white"
+       >
+                <h3 className="islamiccolor mt-20 mb-20">Virtue of Umrah</h3>
+                </AccordionSummary>
+                 
+            <AccordionDetails>
+          <Typography>
+              
                       <article className="sc-53f348b9-5 bCwIwB dynamic-elearning-content--description">
                         <div className="sc-213d61b3-0 kexixH">
-                          <div>
+                       
                             <p className="sc-2cb50690-7 isiQyk">Umrah is a set of rituals of worshipping Allah by entering
                               into the state of Ihram, performing circumambulation of the Kaaba, performing Sa’i between
                               Safa and Marwa, and having one's hair shaven or trimmed.</p>
@@ -265,19 +260,13 @@ return (
                                 for the deed and good work. He said: "And who volunteers good, Allah is All-grateful,
                                 All-knowing".</li>
                             </ul>
-                          </div>
+                          
                         </div>
                       </article>
-                    </div>
-                    <div className="sc-53f348b9-4 gnYdoG">
-                    </div>
-                  </div>
-                  <div className="sc-53f348b9-7 NaRmd"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          </Typography>
+    </AccordionDetails>
+
+        </Accordion>
 
 
 

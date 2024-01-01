@@ -18,8 +18,12 @@ const Food = () => {
               <div className="section-title text-center mb-60 wow fadeInDown">
                 <span className="sub-title">Popular Packages</span>
                 <h2 id="umrah">Umrah Packages</h2>
-                <img src="assets/images/hotels/Rotana 2 page_page-0002.jpg" />
-                <img src="assets/images/hotels/Rotana 2 page_page-0001.jpg" />
+                <img src="assets/images/packages/1.jpg" className="img-fluid" width='100%'/><br/>
+                <img src="assets/images/packages/2.jpg" className="img-fluid" width='100%'/><br/>
+                <img src="assets/images/packages/3.jpg" className="img-fluid" width='100%'/>
+                <img src="assets/images/packages/B2B.jpg" className="img-fluid" width='100%'/>
+                <img src="assets/images/hotels/Rotana 2 page_page-0002.jpg" className="img-fluid"/>
+                <img src="assets/images/hotels/Rotana 2 page_page-0001.jpg" className="img-fluid"/>
               </div>
             </div>
           </div>

@@ -49,7 +49,7 @@ const Contact = () => {
                   <p className="mobcontacts p-2">
                     <strong>
                     <a className="qari islamiccolor" href="tel:+919561501515">Bhusawal <br/> +91 9561501515 <br/> 7620953312 (Qari Zaheeruddin)</a> <br/><br/>
-                    <a href="tel:+919820194778">Jalgaon - Maulana Umar <br/> +91 6446877313 </a> <br/><br/>
+                    <a href="tel:+919820194778">Jalgaon - Maulana Umer <br/> +91 8446877313 </a> <a href="tel:+919122317272">Mufti Abuzar <br/> +91 9122317272 </a><br/><br/>
                     <a href="tel:+919028126314">Amalner - Maulana Azhar <br/> +91 9028126314 </a><br/><br/>
                     <a href="tel:+917843076638">Paldi - Maulana Asfaq <br/> +91 7843076638</a><br/><br/>
                     <a href="tel:+919975461699">Varangaon +91 9975461699</a><br/><br/>
@@ -58,7 +58,7 @@ const Contact = () => {
                     <a href="tel:+919623542660">Malkapur - Mufti Shahbuddin <br/> +91 9623542660 </a><br/><br/>
                     <a href="tel:+91797249161">Pachora - Mufti Asrar <br/> +91 797249161  </a><br/><br/>
                     <a href="tel:+919891432102">Raver - Rizwan Shaikh <br/> +91 9891432102 </a><br/><br/>
-                    <a href="tel:+919860604641">Sillod - Mufti Azhar Iqbal Rahmani <br/> +91 9975461699</a><br/><br/>
+                    <a href="tel:+919860604641">Sillod - Mufti Azhar Iqbal Rahmani <br/> +91 9860604641</a><br/><br/>
                     </strong>
                   </p>
                 </div>
@@ -80,7 +80,8 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Jalgaon</h4>
-                          <p class="card-text"> <span>Maulana Umar</span> <br/>+91 6446877313 </p>
+                          <p class="card-text"> <span>Maulana Umer</span> <br/>+91 8446877313 </p><br/>
+                          <p class="card-text"> <span>Mufti Abuzar</span> <br/>+91 9122317272 </p>
                           <br/>
                         </div>
                       </div>
@@ -112,8 +113,7 @@ const Contact = () => {
                         <div class="card-body">
                           <h4 class="card-title">Varangaon</h4>
                           <p class="card-text">
-                    <a href="tel:+919975461699"><span>Maulana Salman</span> <br/> +91 9975461699 </a><br/><br/>
-                            
+                            <a href="tel:+919975461699"><span>Maulana Salman</span> <br/> +91 9975461699 </a><br/><br/>
                           </p>
                         </div>
                       </div>
@@ -124,7 +124,7 @@ const Contact = () => {
                         <div class="card-body">
                           <h4 class="card-title">Erandol </h4>
                           <p class="card-text">                    
-                            <a href="tel:+917058202266">Hafiz Irfan <br/><span>+91 7058202266 </span> </a><br/><br/>
+                            <a href="tel:+917058202266"><span>Hafiz Irfan </span><br/>+91 7058202266  </a><br/><br/>
                           </p>
                         </div>
                       </div>
@@ -136,7 +136,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Yawal</h4>
-                          <p class="card-text"><a href="tel:+99595777775"><span>Haji Nadeem</span> <br/>+91 9595777775  </a><br/><br/>
+                          <p class="card-text"><a href="tel:+99595777775"><span>Haji Nadeem</span> <br/>+91 9595777775</a><br/><br/>
                           </p>
                         </div>
                       </div>
@@ -183,7 +183,7 @@ const Contact = () => {
                       <div class="card text-white bg-success">
                         <div class="card-body">
                           <h4 class="card-title">Sillod</h4>
-                          <p class="card-text"> <a href="tel:+919860604641"><span> Mufti Azhar Iqbal Rahmani</span> <br/> +91 9975461699 </a><br/>
+                          <p class="card-text"> <a href="tel:+919860604641"><span> Mufti Azhar Iqbal Rahmani</span> <br/> +91 9860604641 </a><br/>
                           </p>
                         </div>
                       </div>                
